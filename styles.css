@@ -160,6 +160,19 @@ body {
     text-align: justify;
 }
 
+.my_skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hard_soft_skills {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
